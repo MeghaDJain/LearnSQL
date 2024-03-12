@@ -1,0 +1,7 @@
+select * from WomenWardrobe;
+
+select * from WomenWardrobe where occasion = 'Night Out';
+
+select * from WomenWardrobe where size != 'S';
+
+select * from WomenWardrobe where category IN ('Shoes', 'Coats'); 
