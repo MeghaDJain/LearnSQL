@@ -5,3 +5,20 @@ select * from WomenWardrobe where occasion = 'Night Out';
 select * from WomenWardrobe where size != 'S';
 
 select * from WomenWardrobe where category IN ('Shoes', 'Coats'); 
+
+SELECT * FROM WomenWardrobe WHERE category = 'Dresses';
+
+SELECT * FROM WomenWardrobe WHERE color = 'Black';
+
+SELECT * FROM WomenWardrobe WHERE occasion LIKE '%Work%';
+
+SELECT * FROM WomenWardrobe WHERE color = 'Black';
+
+
+SELECT * FROM WomenWardrobe WHERE brand = 'Zara';
+
+SELECT DISTINCT color FROM WomenWardrobe;
+
+SELECT DISTINCT ITEM_NAME FROM WomenWardrobe;
+
+
